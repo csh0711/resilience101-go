@@ -23,3 +23,8 @@ go.work.sum
 
 # env file
 .env
+
+# IDE files
+.idea/
+order-service/.idea/
+transaction-log-service/.idea/

@@ -1,10 +1,10 @@
-# Failsafe-goin Action
+# Failsafe-go in Action
 
 This repository contains examples for the [Failsafe-go](https://failsafe-go.dev/) library. 
 The examples are written in [Go](https://go.dev) (using the [Echo web framework](https://echo.labstack.com/)).
 
 **Note:** The same example - but with Resilience4J and Kotlin/Spring Boot - can be 
-found [here](https://github.com/csh0711/resilience101).
+found [here](https://gi[.gitignore](.gitignore)thub.com/csh0711/resilience101).
 
 ## Scenario
 Two services are involved in the scenario, the **order-service** and the **transaction-log-service**:
@@ -17,15 +17,15 @@ and relies on its response. However, this call can fail.
 ## Switch to the different pattern implementations
 For each implemented resilience pattern there's a separate Git branch to be checked out. 
 The following branches are available:
-- [**master**](https://github.com/csh0711/resilience101): 
+- [**main**](https://github.com/csh0711/resilience101-go): 
   The initial state of the example, no resilience pattern is applied.
-- [**retry**](https://github.com/csh0711/resilience101/tree/retry): 
+- [**retry**](https://github.com/csh0711/resilience101-go/tree/retry): 
   Shows how the retry pattern might be applied.
-- [**rateLimiter**](https://github.com/csh0711/resilience101/tree/rateLimiter): 
+- [**rateLimiter**](https://github.com/csh0711/resilience101-go/tree/rateLimiter): 
   Shows how the rate limiter pattern might be applied.
-- [**circuitBreaker**](https://github.com/csh0711/resilience101/tree/circuitBreaker): 
+- [**circuitBreaker**](https://github.com/csh0711/resilience101-go/tree/circuitBreaker): 
   Shows how the circuit breaker pattern might be applied.
-- [**fallback**](https://github.com/csh0711/resilience101/tree/fallback):
+- [**fallback**](https://github.com/csh0711/resilience101-go/tree/fallback):
   Shows how the fallback pattern might be applied.
 
 ## Run the example
